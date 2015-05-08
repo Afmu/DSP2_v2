@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.softbwh.jesus.dsp2.Juego">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Juego de Preguntas y Respuestas"
+            android:id="@+id/tvTitulo"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.17" />
+
+        <TextView
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Texto de la pregunta"
+            android:id="@+id/tvPregunta"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.17" />
+
+        <Button
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 1"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15" />
+
+        <Button
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 2"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.17" />
+
+        <Button
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 3"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.17" />
+
+        <Button
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:text="Respuesta 4"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.17" />
+    </LinearLayout>
+</RelativeLayout>
